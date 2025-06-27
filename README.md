@@ -1,5 +1,16 @@
 # 💰 Bitcoin Price Forecasting AI
 
+## 📚 Table of Contents
+
+- [🚀 Project Description](#-project-description)
+- [⚙️ Setup Instructions](#️-setup-instructions)
+- [🤖 Project Overview](#-project-overview)
+  - [🔮 Prediction Script](#-prediction-script)
+  - [💪 Training Script](#-training-script)
+- [💡 Tips](#-tips)
+- [🙏 Credits](#-credits)
+
+## 🚀 Project Description
 An LSTM-based deep learning model that predicts short-term Bitcoin market movements using the last 89 days of historical data.
 
 > Data includes:  
@@ -31,7 +42,7 @@ pip install -r requirements.txt
 ## 🤖 Project Overview
 This project includes two main Python scripts:
 
-### 🔮 BitCoinAI_Predict.py — Prediction Script
+### 🔮 Prediction Script
 - Uses the last 72 hours of Bitcoin data 
 - Predicts the market behavior for the next 12 hours
 - Output is saved in: `Predictions.csv`
@@ -42,18 +53,21 @@ python BitCoinAI_Predict.py
 ```
 The Predictions are Saved into `Predictions.csv`
 
-### 🏋️ BitCoinAI_Train.py — Training Script
+### 💪 Training Script
 - Retrains the LSTM model on the most recent 89 days of data
 - Improves accuracy with updated market conditions
 - Results are saved to: `Model Training Results.csv`
 ```bash
 python BitCoinAI_Train.py
 ```
-> 💡 Tip: It's recommended to retrain the model every 10–15 days for best results.
+## 💡 Tips
+It's recommended to:
+> Retrain the model right after seting everything up(so it's trained up to date)
+> Retrain the model every 5 days for best results.
 
 ---
 
-## 🙏 Credit:
+## 🙏 Credits
 Created with 💻 by [AZWOLD](https://github.com/AZWOLD)
 
 Bitcoin data powered by [CoinGecko](https://www.coingecko.com/)🦎
