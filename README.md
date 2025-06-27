@@ -62,7 +62,8 @@ python BitCoinAI_Train.py
 ```
 ## 💡 Tips
 It's recommended to:
-> Retrain the model right after seting everything up(so it's trained up to date)
+> Retrain the model right after seting everything up(to make sure the model is trained up to date).
+> 
 > Retrain the model every 5 days for best results.
 
 ---
