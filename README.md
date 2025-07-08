@@ -2,15 +2,15 @@
 
 ## 📚 Table of Contents
 
-- [🚀 Project Description](#-project-description)
+- [🚀 Description](#-description)
 - [⚙️ Setup Instructions](#️-setup-instructions)
-- [🤖 Project Overview](#-project-overview)
+- [🤖 Overview](#-overview)
   - [🔮 Prediction Script](#-prediction-script)
   - [💪 Training Script](#-training-script)
 - [💡 Tips](#-tips)
 - [🙏 Credits](#-credits)
 
-## 🚀 Project Description
+## 🚀 Description
 An LSTM-based deep learning model that predicts short-term Bitcoin market movements using the last 89 days of historical data.
 
 > Data includes:  
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🤖 Project Overview
+## 🤖 Overview
 This project includes two main Python scripts:
 
 ### 🔮 Prediction Script
