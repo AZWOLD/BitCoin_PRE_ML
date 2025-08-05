@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from keras import backend as K
+import tensorflow.keras.backend as K
 from keras.models import Sequential
 from keras.layers import LSTM, Dense,Dropout
 #==================loading LSTM Model====================
